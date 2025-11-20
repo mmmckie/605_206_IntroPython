@@ -1,0 +1,11 @@
+##### Space Command Simulation 2 #####
+Australia is not at risk for a collision.
+Germany is at risk of colliding with ['Ukraine', 'Egypt']
+USA is not at risk for a collision.
+Russia is not at risk for a collision.
+Ukraine is at risk of colliding with ['Germany', 'Canada', 'Egypt']
+China is not at risk for a collision.
+Canada is at risk of colliding with ['Ukraine', 'Egypt']
+France is not at risk for a collision.
+Egypt is at risk of colliding with ['Germany', 'Ukraine', 'Canada']
+Mexico is not at risk for a collision.

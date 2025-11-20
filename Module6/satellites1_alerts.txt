@@ -1,0 +1,6 @@
+##### Space Command Simulation 1 #####
+Russia is at risk of colliding with ['China', 'Ukraine']
+China is at risk of colliding with ['Russia', 'Germany', 'Ukraine']
+USA is not at risk for a collision.
+Germany is at risk of colliding with ['China', 'Ukraine']
+Ukraine is at risk of colliding with ['Russia', 'China', 'Germany']
