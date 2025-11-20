@@ -26,7 +26,6 @@ def DiningPhilosophers():
         philosophers[name] = Philosopher(name, forks[left_fork], forks[right_fork])
 
     for name in names:
-        # TODO: make sure these are non-blocking (?)
         philosophers[name].start()
     
     time.sleep(10)
