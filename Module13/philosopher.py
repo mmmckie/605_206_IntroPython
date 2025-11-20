@@ -5,6 +5,7 @@ Implementation of Philosopher class for DiningPhilosophers problem.
 import random
 import threading
 import time
+
 from fork import Fork
 
 class Philosopher(threading.Thread):
@@ -17,6 +18,8 @@ class Philosopher(threading.Thread):
         self.right_fork = right_fork
 
     def run(self):
+        '''Makes philosopher think and eat while thread running, then clean up.'''
+        
         while self.running:
             self.think()
             self.eat()
