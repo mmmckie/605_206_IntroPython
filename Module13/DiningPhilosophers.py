@@ -45,9 +45,8 @@ def DiningPhilosophers():
     # Create time delay to let all threads run for 10 secs
     time.sleep(10)
     
-    # Set running to False for each philosopher so they all clean up
-    for name in names:
-        philosophers[name].running = False
+    # Set running to False for all philosophers so they all clean up
+    Philosopher.running = False
     
     # Exit all threads
     for name in names:
